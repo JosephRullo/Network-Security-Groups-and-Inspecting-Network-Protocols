@@ -119,13 +119,28 @@ To set up the next step we will initiate a "Perpetual Ping" between VM-1 and VM-
 <br />
 <h2>Step 7.</h2> 
 
-**Network Security Group Inbound Rules** 
+**Network Security Groups Inbound Rules** 
 <p>
 You can use an Azure network security group to filter network traffic between Azure resources in an Azure virtual network. A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources. For each rule, you can specify source and destination, port, and protocol. Let's add a new "Inbound Security Rule" to block the "Ping" we are sending to VM-2. Mininmize the Remote Desktop to go back to your Host PC. From the Host go to Azure and search for "Network Security Groups" -> click to select it -> select VM-2 -> under "Settings" select "Inbound Security Rules" -> click "Add" at the top.
 <p>
 <p>
 <img src="https://i.imgur.com/cisSjPS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/L7PHAX6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/7AkQtNF.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/Gdhr6hU.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+<h2>Step 7.</h2> 
+
+**Network Security Groups Inbound Rules (continued)** 
+<p>
+You can configure the Inbound Security Rule in various ways, but for this test we will leave the top fields on the default settings. Scroll down to the "Protocol" selection and choose "ICMP" (you will not have to select a port since ICMP does not use one). Under Action select "Deny", this will block the Ping since it utilizes the ICMP Protocol. Set the "Priority" to a number less than the other security rules (this will ensure it has a higher priority). Finally assign it a "Name" describing it's function, then click "Add". Now go back to the Remote Desktop and VM-1. Observe the change in PowerShell and Wireshark. The "Ping" has timed out and is no longer able to go through because of the new "Inbound Security Rule" we created. Now let's go back to Azure at the Host and set the ICMP rule to "Allow". Jump back to VM-1 and observe that the ICMP traffic can once again go through to VM-2.
+<p>
+<p>
+<img src="https://i.imgur.com/RuAe85x.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/vpp8LOL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/7AkQtNF.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/Gdhr6hU.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
