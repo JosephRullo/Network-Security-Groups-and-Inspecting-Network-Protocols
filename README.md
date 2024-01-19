@@ -154,12 +154,25 @@ You can configure the Inbound Security Rule in various ways, but for this test w
 
 **SSH Traffic** 
 <p>
-Clear out the traffic in Wireshark and enter "ssh" in the traffic field for this next test. We will login to our VM-2 running Linux using the Command Line in VM-1. To do this go to PowerShell and type in ssh followed by the Username and Private IP of VM-2 in this case it will look like this "ssh labuser@10.0.0.5". Next hit enter and type "yes" when it asks if "Are you are sure you want to connect". Next you will be prompted to enter it's password, type it in and hit enter again (Note for security purposes it will not show what you are typing as you enter the password, just type it correctly and it will work). You are now logged in as the User in VM-2. As you will notice, Wireshark will show all the "SSH" traffic activity as you are in the process of and after you are logged in via the command line. 
+Clear out the traffic in Wireshark and enter "ssh" in the traffic field for this next test. We will login to our VM-2 running Linux using the Command Line in VM-1. To do this go to PowerShell and type in ssh followed by the Username and Private IP of VM-2 in this case it will look like this "ssh labuser@10.0.0.5". Next hit enter and type "yes" when it asks if "Are you are sure you want to connect". Next you will be prompted to enter it's password, type it in and hit enter again (Note for security purposes it will not show what you are typing as you enter the password, just type it correctly and it will work). You are now logged in as the User in VM-2. As you will notice, Wireshark will show all the "SSH" traffic activity as you are in the process of and after you are logged in via the command line. You can type in "exit" to logoff VM-2. 
 <p>
 <p>
 <img src="https://i.imgur.com/lQ8mgYx.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/RtFROhM.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/7KTOtcI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+</p>
+<br />
+<h2>Step 9.</h2> 
+
+**DHCP Traffic** 
+<p>
+To view the DHCP protocol traffic, type in Wireshark "dhcp". DHCP is a protocol for assigning dynamic IP addresses to devices on a network. Go to PowerShell and type "ipconfig /renew" -> hit enter. This command "ipconfig /renew" gets a new DHCP address.
+<p>
+<p>
+<img src="https://i.imgur.com/uIXbQM3.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/ijwvXca.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 </p>
