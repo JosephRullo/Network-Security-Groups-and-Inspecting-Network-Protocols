@@ -105,14 +105,14 @@ Let's now try a connection test between both VM's and filter Wireshark to see on
 <br />
 <h2>Step 6.</h2> 
 
-**Filter ICMP Traffic and Ping VM-2** 
+**Perpetual Ping** 
 <p>
-Let's now try a connection test between both VM's and filter Wireshark to see only that traffic. At the top of the Wireshark window, type the following "icmp" and hit enter. This is the protocol of the "ping" (connection test) we will send to the private IP Address of our secon VM running Linux. Now only ICMP protocol traffic will be displayed. Next go to the start menu (still inside Windows VM) and open PowerShell -> type the following command "ping 10.0.0.5" (this is the Private IP Address for VM-2) -> hit enter. This will send traffic to VM-2 and reply back to VM-1. Once this is entered in, you will see in PowerShell the connection test being established. Going back to Wireshark, you will see this traffic to and from each VM in more detail. 
+To set up the next step we will initiate a "Perpetual Ping" between VM-1 and VM-2. Let's clear the traffic in Wireshark by clicking on the green shark button at the top -> click "Continue Without Saving". Now go back to PowerShell and type in the following command "ping 10.0.0.5 -t" and hit enter. VM-1 will now continue sending a ping to VM-2 non-stop until you quit it.
 <p>
 <p>
-<img src="https://i.imgur.com/vM3qUJ6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/XBd2wFc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/scL5fpL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/YyFLfc7.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/s6Fz8DE.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/YpRRazC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 </p>
