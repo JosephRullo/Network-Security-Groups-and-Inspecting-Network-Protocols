@@ -117,3 +117,18 @@ To set up the next step we will initiate a "Perpetual Ping" between VM-1 and VM-
 <p>
 </p>
 <br />
+<h2>Step 7.</h2> 
+
+**Network Security Group Inbound Rules** 
+<p>
+You can use an Azure network security group to filter network traffic between Azure resources in an Azure virtual network. A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources. For each rule, you can specify source and destination, port, and protocol. Let's add a new "Inbound Security Rule" to block the "Ping" we are sending to VM-2. Mininmize the Remote Desktop to go back to your Host PC. From the Host go to Azure and search for "Network Security Groups" -> click to select it -> select VM-2 -> under "Settings" select "Inbound Security Rules" -> click "Add" at the top.
+<p>
+<p>
+<img src="https://i.imgur.com/cisSjPS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/L7PHAX6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/7AkQtNF.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/Gdhr6hU.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
