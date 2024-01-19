@@ -45,3 +45,16 @@ https://github.com/JosephRullo/Azure-Virtual-Machines-and-Networking/blob/main/R
 <p>
 </p>
 <br />
+<h2>Step 2.</h2> 
+
+**Login to Windows VM using Remote Desktop.** 
+<p>
+First we will login to our Windows VM. Since I'm using a Linux based Host PC, I will login to the Windows VM using Remmina Remote Desktop (If your Host is running  Windows or Mac, simply use Microsoft's Remote Desktop).
+<p>
+<p>
+<img src="https://i.imgur.com/qaQ2hnA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/pkxhSVE.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+</p>
+<br />
