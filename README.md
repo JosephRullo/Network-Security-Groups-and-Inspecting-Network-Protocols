@@ -35,7 +35,7 @@
 
 **Create Virtual Machines in Microsoft Azure.** 
 <p>
-
+For this tutorial we will be utilizing two Virtual Machines created in Azure running different Operating Systems. Begin by creating each VM setting up one running Windows 10, and the other running Linux (Ubuntu). Make sure to configure them so that they are sharing the same Virtual Network. For a more detailed walkthrough on creating Virtual Machines please view this link 
 <p>
 <p>
 <img src="https://imgur.com/ddZi8Wm.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
