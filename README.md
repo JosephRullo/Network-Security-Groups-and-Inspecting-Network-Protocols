@@ -9,7 +9,8 @@
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remmina Remote Desktop
+- PowerShell
 - Various Command-Line Tools
 - Various Network Protocols (SSH, RDP, DNS, DHCP ,ICMP)
 - Wireshark (Protocol Analyzer)
@@ -21,18 +22,19 @@
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Resources in Azure
+- Install Wireshark
+- Add Network Security Group Rules
+- Observe Traffic Protocols Between VM's 
+  
 
 <h2>Actions and Observations</h2>
 
-<h2>Step 2.</h2> 
+<h2>Step 1.</h2> 
 
-**Create the Domain Controller Virtual Machine.** 
+**Create Virtual Machines in Microsoft Azure.** 
 <p>
-The computer where Active Directory will be installed is known as the Domain Controller. From the Azure homescreen select the "Virtual Machines" tab at the top. Click on "Create" -> select "Azure Virtual Machine". From this screen you will start in the "Basics" tab. In the Resource Group field below select "Create New" and assign it a name of your choice (for example ActiveDirectory). This "Resource Group" is where the Virtual Machine will be stored. Next assign a name of your choice in the "Virtual Machine Name" field (ex. DomainController-VM), this will be the name of your Domain Controller moving forward. For this example I will leave the other settings default, except for the "Image" field. Set "Image" to "Windows Sever 2022 Datacenter: Azure Edition". Next scroll down and in the "Size" field select the option with 2vcpus and 16 Gib of memory. In the Administrator account section just below, assign a username and password (store in a secure place in case you forget it). Now we can click "Review+Create" at the very bottom. Once "Validation" has passed you can click "Create" once more at the bottom of the window. This may take a few minutes to complete.
+
 <p>
 <p>
 <img src="https://imgur.com/ddZi8Wm.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
