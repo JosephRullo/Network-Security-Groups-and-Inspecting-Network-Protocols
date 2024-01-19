@@ -35,7 +35,8 @@
 
 **Create Virtual Machines in Microsoft Azure.** 
 <p>
-For this tutorial we will be utilizing two Virtual Machines created in Azure running different Operating Systems. Begin by creating each VM setting up one running Windows 10, and the other running Linux (Ubuntu). Make sure to configure them so that they are sharing the same Virtual Network. For a more detailed walkthrough on creating Virtual Machines please view this link: <p>
+For this tutorial we will be utilizing two Virtual Machines created in Azure running different Operating Systems. Begin by creating each VM setting up one running Windows 10, and the other running Linux (Ubuntu). Make sure to configure them so that they are sharing the same Virtual Network. Once the VM's are ready, take note of the Public and Private IP Addresses for each one located on the VM Overview page. For a more detailed walkthrough on creating and configuring Virtual Machines please view this link:
+<p>
 https://github.com/JosephRullo/Azure-Virtual-Machines-and-Networking/blob/main/README.md
 <p>
 <p>
@@ -71,20 +72,8 @@ Once signed in, open the web browser and go to https://www.wireshark.org/downloa
 <p>
 </p>
 <br />
-<h2>Step 4.</h2> 
 
-**Download and Install Wireshark** 
-<p>
-Once signed in, open the web browser in the VM and go to https://www.wireshark.org/download.html and download Wireshark. Once downloaded, begin to install it with all the default settings.
-<p>
-<p>
-<img src="https://i.imgur.com/NssNE1N.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/qhav4o4.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-</p>
-<p>
-</p>
-<br />
-<h2>Step 5.</h2> 
+<h2>Step 4.</h2> 
 
 **Open Wireshark and Observe Network Traffic** 
 <p>
@@ -93,6 +82,20 @@ Once installed, go to the start menu and open the Wireshark app. Click the shark
 <p>
 <img src="https://i.imgur.com/yTtlOYb.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/YtOCctG.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+</p>
+<br />
+<h2>Step 5.</h2> 
+
+**Filter ICMP Traffic and Ping VM-2** 
+<p>
+Let's now try a connection test between both VM's and filter Wireshark to see only that traffic. At the top of the Wireshark window, type the following "icmp" and hit enter. This is the protocol of the "ping" (connection test) we will send to the private IP Address of our secon VM running Linux. Now only ICMP protocol traffic will be displayed. Next go to the start menu (still inside Windows VM) and open PowerShell -> type the following command "ping 10.0.0.5" (this is the Private IP Address for VM-2) -> hit enter. This will send traffic to VM-2 and reply back to VM-1. Once this is entered in, you will see in PowerShell the connection test being established. Going back to Wireshark, you will see this traffic to and from each VM in more detail. 
+<p>
+<p>
+<img src="https://i.imgur.com/vM3qUJ6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/XBd2wFc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/scL5fpL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 </p>
