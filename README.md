@@ -132,7 +132,7 @@ You can use an Azure Network Security Group to filter network traffic between re
 <p>
 </p>
 <br />
-<h2>Step 7.</h2> 
+<h2>Step 8.</h2> 
 
 **Network Security Groups Inbound Rules (continued)** 
 <p>
@@ -150,7 +150,7 @@ You can configure the Inbound Security Rule in various ways, but for this test w
 <p>
 </p>
 <br />
-<h2>Step 8.</h2> 
+<h2>Step 9.</h2> 
 
 **SSH Traffic** 
 <p>
@@ -164,7 +164,7 @@ Clear out the traffic in Wireshark and enter "ssh" in the traffic field for this
 <p>
 </p>
 <br />
-<h2>Step 9.</h2> 
+<h2>Step 10.</h2> 
 
 **DHCP Traffic** 
 <p>
@@ -177,7 +177,7 @@ To view the DHCP protocol traffic, type in Wireshark "dhcp". DHCP is a protocol 
 <p>
 </p>
 <br />
-<h2>Step 10.</h2> 
+<h2>Step 11.</h2> 
 
 **DNS Traffic** 
 <p>
@@ -189,7 +189,7 @@ The DNS Protocol will translate the written web address such as www.google.com i
 <p>
 </p>
 <br />
-<h2>Step 11.</h2> 
+<h2>Step 12.</h2> 
 
 **RDP Traffic** 
 <p>
