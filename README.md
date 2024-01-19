@@ -71,3 +71,29 @@ Once signed in, open the web browser and go to https://www.wireshark.org/downloa
 <p>
 </p>
 <br />
+<h2>Step 4.</h2> 
+
+**Download and Install Wireshark** 
+<p>
+Once signed in, open the web browser in the VM and go to https://www.wireshark.org/download.html and download Wireshark. Once downloaded, begin to install it with all the default settings.
+<p>
+<p>
+<img src="https://i.imgur.com/NssNE1N.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/qhav4o4.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+</p>
+<br />
+<h2>Step 5.</h2> 
+
+**Open Wireshark and Observe Network Traffic** 
+<p>
+Once installed, go to the start menu and open the Wireshark app. Click the shark icon at the top left of the screen to begin "Capturing Packets" of traffic. You will notice lots of traffic activity now visible. This traffic is accross all Network Protocols that are going on in the backround of the Virtual Machine and it's remote connection to the Host.
+<p>
+<p>
+<img src="https://i.imgur.com/yTtlOYb.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/YtOCctG.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+</p>
+<br />
