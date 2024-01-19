@@ -107,7 +107,7 @@ Let's now try a connection test between both VM's and filter Wireshark to see on
 
 **Perpetual Ping** 
 <p>
-To set up the next step we will initiate a "Perpetual Ping" between VM-1 and VM-2. Let's clear the traffic in Wireshark by clicking on the green shark button at the top -> click "Continue Without Saving". Now go back to PowerShell and type in the following command "ping 10.0.0.5 -t" and hit enter. VM-1 will now continue sending a ping to VM-2 non-stop until you quit it.
+To set up the next step we will initiate a "Perpetual Ping" between VM-1 and VM-2. Let's clear the traffic in Wireshark by clicking on the green shark button at the top -> click "Continue Without Saving". Now go back to PowerShell and type in the following command "ping 10.0.0.5 -t" and hit enter. VM-1 will now continue sending a ping to VM-2 non-stop until you quit it (to stop the ping hit ctrl + c on the keyboard). Let's leave it pinging as we move on to the next step.
 <p>
 <p>
 <img src="https://i.imgur.com/YyFLfc7.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
@@ -121,7 +121,7 @@ To set up the next step we will initiate a "Perpetual Ping" between VM-1 and VM-
 
 **Network Security Groups Inbound Rules** 
 <p>
-You can use an Azure network security group to filter network traffic between Azure resources in an Azure virtual network. A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources. For each rule, you can specify source and destination, port, and protocol. Let's add a new "Inbound Security Rule" to block the "Ping" we are sending to VM-2. Mininmize the Remote Desktop to go back to your Host PC. From the Host go to Azure and search for "Network Security Groups" -> click to select it -> select VM-2 -> under "Settings" select "Inbound Security Rules" -> click "Add" at the top.
+You can use an Azure Network Security Group to filter network traffic between resources in an Azure virtual network. A Network Security Group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources. For each rule, you can specify source and destination, port, and protocol. Let's add a new "Inbound Security Rule" to block the "Ping" we are sending to VM-2. Mininmize the Remote Desktop to go back to your Host PC. From the Host go to Azure and search for "Network Security Groups" -> click to select it -> select VM-2 -> under "Settings" select "Inbound Security Rules" -> click "Add" at the top.
 <p>
 <p>
 <img src="https://i.imgur.com/cisSjPS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
