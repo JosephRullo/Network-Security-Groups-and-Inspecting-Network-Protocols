@@ -66,7 +66,7 @@ First we will login to our Windows VM. Since I'm using a Linux based Host PC, I 
 Once signed in, open the web browser and go to https://www.wireshark.org/download.html and download Wireshark. Once downloaded, begin to install it with all the default settings.
 <p>
 <p>
-<img src="https://i.imgur.com/NssNE1N.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/hVHY2OV.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/qhav4o4.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
