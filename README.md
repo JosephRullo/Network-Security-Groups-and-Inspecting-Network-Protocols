@@ -177,3 +177,15 @@ To view the DHCP protocol traffic, type in Wireshark "dhcp". DHCP is a protocol 
 <p>
 </p>
 <br />
+<h2>Step 10.</h2> 
+
+**DNS Traffic** 
+<p>
+The DNS Protocol will translate the written web address such as www.google.com into it's numerical IP address. Type in Wireshark "dns" -> next in Powershell type "nslookup www.google.com" -> hit enter. Observe the DNS traffic visible in Wireshark. 
+<p>
+<p>
+<img src="https://i.imgur.com/b71k4v0.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+</p>
+<br />
