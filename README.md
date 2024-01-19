@@ -82,7 +82,7 @@ Once installed, go to the start menu and open the Wireshark app. Click the shark
 <p>
 <img src="https://i.imgur.com/yTtlOYb.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/YtOCctG.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/YtOCctG.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/Z9lPXS6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 </p>
