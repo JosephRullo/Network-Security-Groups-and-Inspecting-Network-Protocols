@@ -141,8 +141,8 @@ You can configure the Inbound Security Rule in various ways, but for this test w
 <p>
 <img src="https://i.imgur.com/RuAe85x.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/vpp8LOL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/7AkQtNF.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/Gdhr6hU.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lQf7yb2.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/gjMrUKA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
