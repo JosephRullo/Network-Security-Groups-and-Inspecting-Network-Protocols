@@ -35,13 +35,12 @@
 
 **Create Virtual Machines in Microsoft Azure.** 
 <p>
-For this tutorial we will be utilizing two Virtual Machines created in Azure running different Operating Systems. Begin by creating each VM setting up one running Windows 10, and the other running Linux (Ubuntu). Make sure to configure them so that they are sharing the same Virtual Network. For a more detailed walkthrough on creating Virtual Machines please view this link https://github.com/JosephRullo/Azure-Virtual-Machines-and-Networking/blob/main/README.md
+For this tutorial we will be utilizing two Virtual Machines created in Azure running different Operating Systems. Begin by creating each VM setting up one running Windows 10, and the other running Linux (Ubuntu). Make sure to configure them so that they are sharing the same Virtual Network. For a more detailed walkthrough on creating Virtual Machines please view this link: <p>
+https://github.com/JosephRullo/Azure-Virtual-Machines-and-Networking/blob/main/README.md
 <p>
 <p>
-<img src="https://imgur.com/ddZi8Wm.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/5Tr1OM0.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/9kl2fML.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/T5b2S0X.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6xnHPwK.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/aSbJuL6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 </p>
