@@ -89,6 +89,22 @@ Once installed, go to the start menu and open the Wireshark app. Click the shark
 <br />
 <h2>Step 5.</h2> 
 
+**Filter ICMP Traffic and Ping Test** 
+<p>
+Let's now try a connection test between both VM's and filter Wireshark to see only that traffic. At the top of the Wireshark window, type the following "icmp" and hit enter. This is the protocol of the "ping" (connection test) we will send to the private IP Address of our secon VM running Linux. Now only ICMP protocol traffic will be displayed. Next go to the start menu (still inside Windows VM) and open PowerShell -> type the following command "ping 10.0.0.5" (this is the Private IP Address for VM-2) -> hit enter. This will send traffic to VM-2 and reply back to VM-1. Once this is entered in, you will see in PowerShell the connection test being established. Going back to Wireshark, you will see this traffic to and from each VM in more detail. Try another "ping" test this time to google. Type in PowerShell "ping www.google.com -4" and hit enter. This time you can see the ICMP traffic between VM-1 and Google.
+<p>
+<p>
+<img src="https://i.imgur.com/vM3qUJ6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/XBd2wFc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/scL5fpL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/tTL9EpO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/gh41KAA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+</p>
+<br />
+<h2>Step 6.</h2> 
+
 **Filter ICMP Traffic and Ping VM-2** 
 <p>
 Let's now try a connection test between both VM's and filter Wireshark to see only that traffic. At the top of the Wireshark window, type the following "icmp" and hit enter. This is the protocol of the "ping" (connection test) we will send to the private IP Address of our secon VM running Linux. Now only ICMP protocol traffic will be displayed. Next go to the start menu (still inside Windows VM) and open PowerShell -> type the following command "ping 10.0.0.5" (this is the Private IP Address for VM-2) -> hit enter. This will send traffic to VM-2 and reply back to VM-1. Once this is entered in, you will see in PowerShell the connection test being established. Going back to Wireshark, you will see this traffic to and from each VM in more detail. 
