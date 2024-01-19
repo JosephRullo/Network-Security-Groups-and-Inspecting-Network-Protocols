@@ -25,7 +25,8 @@
 - Create Resources in Azure
 - Install Wireshark
 - Add Network Security Group Rules
-- Observe Traffic Protocols Between VM's 
+- Prompt Traffic Between VM's
+- Observe Network Protocols 
   
 
 <h2>Actions and Observations</h2>
