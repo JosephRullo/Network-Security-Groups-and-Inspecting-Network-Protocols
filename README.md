@@ -193,7 +193,7 @@ The DNS Protocol will translate the written web address such as www.google.com i
 
 **RDP Traffic** 
 <p>
-Lastly we'll observe the "RDP" or the Remote Desktop Protocol traffic. Another way to filter the traffic in Wireshark is to enter in the Port that the protocol uses. RDP protocol uses "Port" number 3389, so we'll enter "tcp.port==3389" in the traffic field. Once entered, you'll notice continual traffic appear immediately since we are utilizing this protocol with our remote connection to the Virtual Machine via Remote Desktop. 
+Lastly we'll observe the "RDP" or the Remote Desktop Protocol traffic. Another way to filter the traffic in Wireshark is to enter in the Port that the protocol uses. RDP protocol uses "TCP Port" number 3389, so we can enter "tcp.port==3389" in the traffic field. Once entered, you'll notice continual traffic appear immediately since we are utilizing this protocol with our remote connection to the Virtual Machine via Remote Desktop. 
 <p>
 <p>
 <img src="https://i.imgur.com/9QfFjKe.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
