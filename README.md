@@ -158,7 +158,7 @@ Clear out the traffic in Wireshark and enter "ssh" in the traffic field for this
 <p>
 <p>
 <img src="https://i.imgur.com/lQ8mgYx.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/RtFROhM.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/bsbJMQC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/znapbLL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
